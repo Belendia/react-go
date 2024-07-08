@@ -92,4 +92,7 @@ sketch
 .history
 .ionide
 
+.env
+tmp
+
 # End of https://www.toptal.com/developers/gitignore/api/go,macos,visualstudiocode,react
