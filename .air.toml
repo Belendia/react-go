@@ -1,11 +1,10 @@
 # Config file for Air (Live Reloading Tool)
 
 [build]
-bin = "main"
-cmd = "go build -o main ./main.go"
-exclude = ["tmp/*", "client/*"]
-include = ["**/*.go"]
-delay = 2000                       # ms
+cmd = "go build -o ./tmp/main ."
+bin = "./tmp/main"
+full_bin = "/Users/belendia/Documents/Projects/GoProj/react-go/tmp/main"
+delay = 2000                                                             # ms
 log = "air.log"
 
 [watch]
