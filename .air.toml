@@ -6,6 +6,7 @@ bin = "./tmp/main"
 full_bin = "/Users/belendia/Documents/Projects/GoProj/react-go/tmp/main"
 delay = 2000                                                             # ms
 log = "air.log"
+exclude = ["frontend/*"]
 
 [watch]
 # Directories to watch
